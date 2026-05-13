@@ -10,19 +10,10 @@
 - 运营绩效指标体系：指标口径定义、数据范围、分层开发与更新频率。
 - 客户 OneID 整合：编码规则、客户匹配、人工复核、同步更新、画像构建。
 
-## 本地运行
+## 运行方式
 
-```bash
-npm install
-npm run dev
-```
-
-## 构建
-
-```bash
-npm run build
-```
+仓库根目录的 `index.html` 是自包含静态演示页，可直接打开，也可由 GitHub Pages 发布。
 
 ## 发布
 
-仓库包含 GitHub Pages workflow。推送到 `main` 后会自动构建并发布静态演示站点。
+仓库包含 GitHub Pages workflow。推送到 `main` 后会自动发布静态演示站点。
